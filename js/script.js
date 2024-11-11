@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'https://nd9ii0rkr8.execute-api..amazonaws.com/prod/api/v1/invoice';
+    const API_URL = 'https://nd9ii0rkr8.execute-api.us-east-1.amazonaws.com/prod/api/v1/invoice';
 
     window.uploadFile = async function() {
         const fileInput = document.getElementById('fileInput');
