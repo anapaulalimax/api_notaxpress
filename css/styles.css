@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00c383;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.logo {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+.upload-container {
+    margin-bottom: 20px;
+}
+
+.filete, .filete-rodape {
+    background-color: #285597;
+    height: 50px;
+    width: 100%;
+    position: fixed;  
+    left: 0;
+}
+
+.filete {
+    top: 0; 
+}
+
+.filete-rodape {
+    bottom: 0;  
+}
+
+.btn {
+    background-color: #285597;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #285597b9;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.loading {
+    color: #285597b9;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.invoice-table th, .invoice-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.invoice-table th {
+    background-color: #f4f4f4;
+    color: #285597; 
+    font-weight: bold;
+}
+
+.invoice-table td {
+    background-color: #fff;
+    color: #333; 
+}
+
+.btn-clear {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-clear:hover {
+    background-color: #c0392b;
+}
+
+.filete-rodape footer {
+    background-color: #285597;
+    color: #fff;
+    padding: 30px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.filete-rodape footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.upload-container {
+    margin-bottom: 20px;
+}
+
+.file-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#fileInput {
+    display: block;
+    width: 80%; 
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px solid #285597;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #285597;
+    text-align: center;
+    font-size: 14px;
+}
+
+#fileInput:focus {
+    border-color: #00c383; 
+}
+
+.invoice-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#fileInput {
+    display: block;
+    width: 40%; 
+    margin: 10px auto; 
+    padding: 8px; 
+    border: 2px solid #285597;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #285597;
+    text-align: center;
+    font-size: 14px; 
+}
+
+#fileInput:focus {
+    border-color: #00c383; 
+}
+
+.invoice-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
